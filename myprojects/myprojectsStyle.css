@@ -1,12 +1,16 @@
-.projects {
+.projects-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 10px;
+  margin-top: 100px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  z-index: 1;
+  position: relative;
 }
 
-.project-container {
+.single-project-container {
   display: grid;
   grid-template-columns: auto 1fr;
   width: 80%;
