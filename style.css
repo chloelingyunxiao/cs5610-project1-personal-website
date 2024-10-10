@@ -68,7 +68,7 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 20px 20px;
-  width: 50%;
+  width: 90%;
 }
 
 .menu-toggle {
@@ -88,10 +88,12 @@ body {
 
 .homepage-greeting {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  gap: 20px;
+  align-items: center;
+  overflow-y: auto;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
 }
 
 @media (max-width: 600px) {

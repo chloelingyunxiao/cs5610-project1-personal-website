@@ -12,7 +12,9 @@
 }
 .intro {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .gallery {
   display: flex;
