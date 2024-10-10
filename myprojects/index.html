@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My projects</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./myprojectsStyle.css" />
+  </head>
+  <body>
+    <img
+      class="backgroundImage"
+      src="../images/home-background-img.jpg"
+      alt="background-picture"
+    />
+    <!-- Navbar -->
+    <nav class="nav">
+      <div class="nav-title">Lingyun Xiao's Personal Website</div>
+      <input type="checkbox" id="toggle" style="display: none" />
+      <div class="nav-items">
+        <a class="nav-item" href="/">Home</a>
+        <a class="nav-item active" href="/myprojects/">Projects</a>
+        <a class="nav-item" href="/contact/">Contact</a>
+        <a class="nav-item" href="/aboutme/">About Me</a>
+      </div>
+      <label for="toggle" class="menu-toggle">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <path
+            stroke="#d2d7df"
+            stroke-width="2"
+            stroke-linecap="round"
+            d="M19 4a1 1 0 01-1 1H2a1 1 0 010-2h16a1 1 0 011 1zm0 6a1 1 0 01-1 1H2a1 1 0 110-2h16a1 1 0 011 1zm-1 7a1 1 0 100-2H2a1 1 0 100 2h16z"
+          />
+        </svg>
+      </label>
+    </nav>
+
+    <!-- Content Section -->
+    <div class="all-contents-container">
+      <div class="projects">
+        <div class="project-container">
+          <div class="project-time">MARCH - APRIL 2024</div>
+
+          <div class="project-details">
+            <!-- The first project -->
+            <div class="project-name">Movie Review Hub</div>
+            <div>
+              <ul class="project-content">
+                <li>
+                  Built a high-performance platform for movie showcasing and
+                  review sharing using Spring Boot.
+                </li>
+                <li>
+                  Designed a RESTful API with MVC architecture for modular and
+                  maintainable code.
+                </li>
+                <li>
+                  Utilized MongoDB Atlas for efficient storage and retrieval of
+                  large-scale data.
+                </li>
+                <li>
+                  Established clear API endpoints for seamless front-end and
+                  back-end interaction, supporting CRUD operations.
+                </li>
+                <li>
+                  Employed Ngrok for local development and testing, ensuring
+                  quick access and debugging.
+                </li>
+                <li>
+                  Followed agile development practices and used Git for version
+                  control.
+                </li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/chloelingyunxiao/Movie-Reviews-Web"
+                class="project-link"
+                >GitHub Repo URL : Movie-Reviews-Hub</a
+              >
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech">Java</span>
+              <span class="tech">Spring Boot</span>
+              <span class="tech">React</span>
+              <span class="tech">MongoDB</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- The second project -->
+        <div class="project-container">
+          <div class="project-time">January - Febrary 2024</div>
+
+          <div class="project-details">
+            <div class="project-name">Real-time Chat App</div>
+            <div>
+              <ul class="project-content">
+                <li>
+                  Implement user login/registration, search, one-on-one chat,
+                  and group chat features, use JWT and Bcrypt encryption for
+                  user data validation and utilize Socket.IO to enable real-time
+                  messaging functionality.
+                </li>
+                <li>
+                  Set up backend functionality with Express and interact with
+                  MongoDB Atlas using Mongoose.
+                </li>
+                <li>
+                  Test API endpoints using Postman for POST, GET, UPDATE, and
+                  DELETE methods.
+                </li>
+                <li>
+                  Utilized MongoDB for data management and used a front-end
+                  framework, React, to enhance the user experience and provide
+                  an intuitive interface.
+                </li>
+                <li>
+                  Develop and render the frontend using React, incorporating UI
+                  libraries like Chakra UI for component building.
+                </li>
+                <li>
+                  Configure Node.js to handle routing, web server requests, and
+                  build necessary elements like controllers, models, and
+                  middleware for data processing, logic execution, and database
+                  interaction.
+                </li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/chloelingyunxiao/MERN-chat-app"
+                class="project-link"
+                >GitHub Repo URL : Real-time Chat App</a
+              >
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech">JavaScript</span>
+              <span class="tech">NodeJS</span>
+              <span class="tech">React</span>
+              <span class="tech">MongoDB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
